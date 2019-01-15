@@ -43,11 +43,11 @@ form = """
 @app.route("/", methods=['POST'])
 def encrypt():
     rot = request.form['rot']
-    
+
     try:
         rot = int(rot)
     except ValueError:
-     #Handle the exception
+     #Handle the exception.
         rot = 0
 
 
