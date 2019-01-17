@@ -29,10 +29,11 @@ form = """
     <body>
       <!-- create your form here -->
       <form action="/" method="post">
-      <label for="rot"><b>Rotate by:</b> </label>
+      <label for="rot"><b>Rotate by:</b> 
         <input type="text" id="rot" name="rot" value = "14"/>
         <textarea name="text">{0}
         </textarea>
+        </label>
         <input type="submit" value="Submit Query"/>
       </form>
     </body>
